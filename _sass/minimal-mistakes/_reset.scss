@@ -8,19 +8,19 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 16px;
+  font-size: 19px;
 
-  @include breakpoint($medium) {
-    font-size: 18px;
-  }
+  // @include breakpoint($medium) {
+  //   font-size: 18px;
+  // }
 
-  @include breakpoint($large) {
-    font-size: 20px;
-  }
+  // @include breakpoint($large) {
+  //   font-size: 20px;
+  // }
 
-  @include breakpoint($x-large) {
-    font-size: 22px;
-  }
+  // @include breakpoint($x-large) {
+  //   font-size: 22px;
+  // }
 
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -184,4 +184,22 @@ input[type="search"]::-webkit-search-cancel-button {
 textarea {
   overflow: auto; /* remove vertical scrollbar in IE6-9*/
   vertical-align: top; /* readability and alignment cross-browser*/
+}
+
+::-webkit-scrollbar{
+  width: 12px; // 세로 스크롤의 너비
+  height: 8px; // 가로 스크롤의 너비
+  background-color: $footer-background-color; // 스크롤의 기본 배경색상
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 5px; // 스크롤바 곡률
+  background-color: $primary-color; // 스크롤바 색상
+}
+
+::-webkit-scrollbar-track:horizontal{
+  background-color: $code-background-color-dark; // 세로 스크롤바 배경 색상
+}
+
+::-webkit-scrollbar-track:vertical{
+  background-color: $code-background-color-dark; // 가로 스크롤바 배경 색상
 }
