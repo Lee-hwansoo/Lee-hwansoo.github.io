@@ -3,11 +3,12 @@ title:  "[Blog] minimal-mistakes 테마 디렉터리 구조"
 excerpt: "블로그 시작 과정"
 
 categories:
-  - Blog
+  - Etc
 tags:
   - Blog
-  - minimal-mistakes
   - Jekyll
+  - Github
+  - minimal-mistakes
 
 # last_modified_at: 
 ---
