@@ -1,0 +1,54 @@
+/* ==========================================================================
+   LeeHwansoo skin
+   ========================================================================== */
+
+
+$primary-color: #88B04B !default;
+
+$background-color: #1e1e20 !default;
+$code-background-color: #353637 !default;
+$code-background-color-dark: #272829 !default;
+$form-background-color: #353637 !default;
+$footer-background-color: #2e2f30 !default;
+
+
+$text-color: #f3f3f3 !default;
+$muted-text-color: #cbcbcb !default;
+$border-color: #353637 !default;
+
+
+$link-color: mix($primary-color, $text-color, 40%) !default;
+$link-color-hover: mix(#fff, $link-color, 25%) !default;
+$link-color-visited: mix(#000, $link-color, 25%) !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
+$navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
+
+
+$behance-color: #88B04B !default;
+$bitbucket-color: #88B04B !default;
+$dribbble-color: #88B04B !default;
+$facebook-color: #88B04B !default;
+$flickr-color: #88B04B !default;
+$foursquare-color: #88B04B !default;
+$github-color: #88B04B !default;
+$gitlab-color: #88B04B !default;
+$instagram-color: #88B04B !default;
+$keybase-color: #88B04B !default;
+$lastfm-color: #88B04B !default;
+$linkedin-color: #88B04B !default;
+$mastodon-color: #88B04B !default;
+$pinterest-color: #88B04B !default;
+$reddit-color: #88B04B !default;
+$rss-color: #fa9b39 !default;
+$soundcloud-color: #88B04B !default;
+$stackoverflow-color: #88B04B !default;
+$tumblr-color: #88B04B !default;
+$twitter-color: #88B04B !default;
+$vimeo-color: #88B04B !default;
+$vine-color: #88B04B !default;
+$youtube-color: #88B04B !default;
+$xing-color: #88B04B !default;
+
+
+
