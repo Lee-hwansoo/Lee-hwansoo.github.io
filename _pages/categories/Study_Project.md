@@ -1,7 +1,7 @@
 ---
 title: "Project"
 layout: archive
-permalink: categories/study/project
+permalink: study/project
 author_profile: true
 sidebar_main: true
 ---

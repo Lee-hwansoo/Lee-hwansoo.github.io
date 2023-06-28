@@ -1,7 +1,7 @@
 ---
 title: "Etc"
 layout: archive
-permalink: categories/study/etc
+permalink: study/etc
 author_profile: true
 sidebar_main: true
 ---

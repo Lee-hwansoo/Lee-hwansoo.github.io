@@ -1,7 +1,7 @@
 ---
 title: "Review"
 layout: archive
-permalink: categories/study/review
+permalink: study/review
 author_profile: true
 sidebar_main: true
 ---

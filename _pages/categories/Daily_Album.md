@@ -1,7 +1,7 @@
 ---
 title: "Album"
 layout: archive
-permalink: categories/daily/album
+permalink: daily/album
 author_profile: true
 sidebar_main: true
 ---
